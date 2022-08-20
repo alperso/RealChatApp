@@ -1,4 +1,5 @@
 # Node + Socket.IO + React Chat App (Backend)
+> **[💥 Video](https://www.youtube.com/watch?v=rdEYSYA7ujU&feature=youtu.be)**
 
 ### Backend Tarafında Kullanılan Teknoloji ve Platformlar
 
