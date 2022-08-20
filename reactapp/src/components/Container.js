@@ -21,7 +21,7 @@ function Container(props) {
         //     setMessages(getAllMessage);
         //
         // });
-        subscriberGetChat((message) => {
+        subscriberGetChat((message) => {//component render edildiginde message stateti al true ekle
             setMessages((prevState) => [...prevState, {message, fromMe: true}]);//mesaj benden mi true değer göneriyorum
         });
     }, [])

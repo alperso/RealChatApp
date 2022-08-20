@@ -26,7 +26,7 @@ io.on("connection", (socket) => {
 		socket.broadcast.emit("receive-message", message);
 	});
 
-	socket.on("disconnect", () => console.log("a user disconnected"));
+	socket.on("disconnect", () => console.log("1 user disconnected"));
 });
 
 http.listen(process.env.PORT || "3000", () => {
